@@ -1,0 +1,20 @@
+In-Memory : Tic Tac Toe
+
+Requirements :
+1. A Board with 3X3 grid
+2. 2 Players ill be required to start the game.
+3. Minimum 1 Human Player required to start the game.
+4. There can be BOTS - having various difficulty levels - EASY,MEDIUM,HARD.
+5. Player can select the type of BOT while starting the game.
+6. Two signs to be used  - O & X
+7. There are 3 winning strategies - same row, same column and diagonal.
+8. There will be a global UNDO step.
+
+
+Inputs :
+1. Start Game
+2. Selection of Multi/Single Player Game
+3. Selection of BOT type in case of Single Player Game
+4. Selection of Symbol
+5. Make Move at Cell
+6. Undo Last Move
