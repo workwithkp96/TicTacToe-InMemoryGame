@@ -65,7 +65,7 @@ public class Client {
         String playerName2 = sc.nextLine();
         System.out.println("Please enter your symbol " + Symbol.X + " " + Symbol.O);
         String symbol2 = sc.nextLine();
-        players.add(new HumanPlayer(1L , playerName1, symbol2.toUpperCase().equals(Symbol.X.toString())? Symbol.X : Symbol.O));
+        players.add(new HumanPlayer(1L , playerName2, symbol2.toUpperCase().equals(Symbol.X.toString())? Symbol.X : Symbol.O));
     }
 
     private static void startSinglePlayerGame(Scanner sc,List<Player> players){
